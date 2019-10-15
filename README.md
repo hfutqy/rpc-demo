@@ -16,3 +16,9 @@ RPC DEMO
 3. 创建socket请求实现类RpcNetTransport,实现socket请求方法Object send(RpcRequest request)
 4. send()方法内，建立socket通信，outputStream把request写入服务端，拿到inputStream，拿到result
 5. InvocationHandler()的invoke()方法内调用socket请求send()方法,拿到result
+
+
+
+### 后续优化
+1. 服务端实例，需要ioc的思想，全局维护单一实例，并标记是rpc service，这样request进来就能直接调用了
+2. 客户端请求可以引入netty，提高性能
