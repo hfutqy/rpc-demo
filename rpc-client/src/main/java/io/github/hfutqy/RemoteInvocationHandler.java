@@ -26,8 +26,7 @@ public class RemoteInvocationHandler implements InvocationHandler {
         request.setMethodName(method.getName());
         request.setParams(args);
 
-
-
-        return "Proxy Success";
+        RpcNetTransport rpcNetTransport = new RpcNetTransport(host, port);
+        return rpcNetTransport.send(request);
     }
 }
