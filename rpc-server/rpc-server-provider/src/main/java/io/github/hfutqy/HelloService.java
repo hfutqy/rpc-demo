@@ -7,6 +7,6 @@ package io.github.hfutqy;
 public class HelloService implements IHelloService {
     @Override
     public String hello(String text) {
-        return "Hello " + text;
+        return "来自服务端的result ---> Hello " + text;
     }
 }

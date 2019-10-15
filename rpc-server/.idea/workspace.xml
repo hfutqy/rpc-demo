@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2adf78cb-1526-4fa1-ba45-c36660c617ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../rpc-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rpc-client/src/main/java/io/github/hfutqy/RemoteInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-client/src/main/java/io/github/hfutqy/RemoteInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rpc-client/src/main/java/io/github/hfutqy/RpcNetTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-client/src/main/java/io/github/hfutqy/RpcNetTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-server-provider/src/main/java/io/github/hfutqy/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-server-provider/src/main/java/io/github/hfutqy/HelloService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570610620146</updated>
       <workItem from="1570610623569" duration="9226000" />
-      <workItem from="1571126885407" duration="3597000" />
+      <workItem from="1571126885407" duration="4131000" />
     </task>
     <servers />
   </component>
